@@ -1,0 +1,126 @@
+#banner {
+    animation: mymove;
+    animation-duration: 60s;
+    animation-direction: reverse;
+    font-family: sans-serif;
+    font-style: oblique;
+    font-weight: bold;
+    text-align: center;
+    background: radial-gradient(circle, #50d2f3, #f8c566);
+    border: groove;
+    border-width: 10px;
+    
+}
+li {
+    font-family: sans-serif;
+    font-style: oblique;
+    text-align: justify;
+    padding: 2px;
+    margin: 10px;
+    font-weight: bold;
+    list-style-image: element();
+
+    
+}
+.Oscar {
+    font-family: Srisakdi;
+    font-size: 65px;
+    font-weight: bold;
+}
+p {
+    font-family: sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+.img-right {
+    height: 215px;
+    width: 275px;
+    border: white;
+    border-style: solid;
+    border-width: 5px;
+    margin-top: 30px;
+    margin-left: 20px;
+    
+
+}
+.img-right2 {
+    height: 215px;
+    width: 275px;
+    border: white;
+    border-style: solid;
+    border-width: 5px;
+    margin-top: 10px;
+    margin-left: 20px;
+
+}
+.img-right3 {
+    height: 215px;
+    width: 275px;
+    border: white;
+    border-style: solid;
+    border-width: 5px;
+    margin-top: 10px;
+    margin-left: 20px;
+
+}
+.card-border-primary {
+    margin: 10px;
+    background: transparent;
+
+}
+.card-img-top {
+    height: 275px;
+    width: 200px;
+    border-color: white;
+    border-style: solid;
+    border-width: 5px;
+    margin-top: 20px;
+    margin-left: 45px;
+}
+.card-img-bottom {
+    width: 200px;
+    border-color: white;
+    border-style: solid;
+    border-width: 5px;
+    margin-top: -35px;
+    margin-left: 35px;
+
+
+}
+.card-title {
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: bold;
+
+}
+.col-3 {
+    padding: -15px;
+    background: radial-gradient(circle, #50d2f3, #f8c566);
+    align-content: center;
+    border: white;
+    border-style: groove;
+    border-width: 3px;
+
+}
+.col-6 {
+    background: repeating-radial-gradient(#f8c566, #50d2f3);
+    align-content: center;
+    border: white;
+    border-style: groove;
+    border-width: 3px;
+
+
+}
+@keyframes mymove {
+    0% {background: #ff7f50}
+    10% {background: #ee82ee}
+    20% {background: #8c5cad}
+    30% {background: #474799}
+    40% {background: #65bb65}
+    50% {background: #e7e756}
+    60% {background: #dfad52}
+    70% {background: #db4646}
+    80% {background: #ffc0cb}
+    90% {background: #f08080}
+    100% {background: #ff7f50}
+}
